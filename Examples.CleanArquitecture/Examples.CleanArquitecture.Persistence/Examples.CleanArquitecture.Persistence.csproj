@@ -13,8 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Examples.CleanArquitecture\Examples.CleanArquitecture.Application\Examples.CleanArquitecture.Application.csproj" />
-    <ProjectReference Include="..\Examples.CleanArquitecture\Examples.CleanArquitecture.Domain\Examples.CleanArquitecture.Domain.csproj" />
+    <ProjectReference Include="..\Examples.CleanArquitecture.Application\Examples.CleanArquitecture.Application.csproj" />
+    <ProjectReference Include="..\Examples.CleanArquitecture.Domain\Examples.CleanArquitecture.Domain.csproj" />
   </ItemGroup>
 
 </Project>
