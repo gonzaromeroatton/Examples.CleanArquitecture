@@ -7,13 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Contracts\" />
     <Folder Include="Features\Person\Commands\CreatePerson\" />
     <Folder Include="Features\Person\Commands\DeletePerson\" />
     <Folder Include="Features\Person\Commands\UpdatePerson\" />
     <Folder Include="Features\Person\Queries\GetPerson\" />
     <Folder Include="Features\Person\Queries\GetPersons\" />
-    <Folder Include="Models\" />
   </ItemGroup>
 
   <ItemGroup>
