@@ -11,9 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraest
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{73E386F7-84CE-4A4E-8950-EDCC61BB131D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples.CleanArquitecture.Application", "Examples.CleanArquitecture.Application\Examples.CleanArquitecture.Application.csproj", "{F88944DD-E120-4B48-A7B5-B3412944C875}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples.CleanArquitecture.Application", "Examples.CleanArquitecture\Examples.CleanArquitecture.Application\Examples.CleanArquitecture.Application.csproj", "{F88944DD-E120-4B48-A7B5-B3412944C875}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples.CleanArquitecture.Domain", "Examples.CleanArquitecture.Domain\Examples.CleanArquitecture.Domain.csproj", "{42055847-57A7-4652-B1DF-E2C1BBD5AAFD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples.CleanArquitecture.Domain", "Examples.CleanArquitecture\Examples.CleanArquitecture.Domain\Examples.CleanArquitecture.Domain.csproj", "{42055847-57A7-4652-B1DF-E2C1BBD5AAFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
