@@ -13,4 +13,9 @@ public sealed class Person : BaseEntity
     /// 
     /// </summary>
     public string Name { get; set; } = string.Empty;
+
+    /// <summary>
+    /// 
+    /// </summary>
+    public string DNI { get; set; } = string.Empty;
 }

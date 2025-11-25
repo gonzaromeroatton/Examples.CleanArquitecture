@@ -16,4 +16,9 @@ public sealed class PersonDto
     /// 
     /// </summary>
     public string Name { get; set; } = string.Empty;
+
+    /// <summary>
+    /// 
+    /// </summary>
+    public string DNI { get; set; } = string.Empty;
 }

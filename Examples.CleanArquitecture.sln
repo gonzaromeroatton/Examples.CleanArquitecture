@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples.CleanArquitecture.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples.CleanArquitecture.Infraestructure", "Examples.CleanArquitecture.Infraestructure\Examples.CleanArquitecture.Infraestructure.csproj", "{46CBD47F-F020-4799-906D-9208D4B6B723}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples.CleanArquitecture.Persistence", "Examples.CleanArquitecture.Persistence\Examples.CleanArquitecture.Persistence.csproj", "{649A9797-5A2A-4EBF-9744-9DFE59DC67E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{46CBD47F-F020-4799-906D-9208D4B6B723}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46CBD47F-F020-4799-906D-9208D4B6B723}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46CBD47F-F020-4799-906D-9208D4B6B723}.Release|Any CPU.Build.0 = Release|Any CPU
+		{649A9797-5A2A-4EBF-9744-9DFE59DC67E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{649A9797-5A2A-4EBF-9744-9DFE59DC67E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{649A9797-5A2A-4EBF-9744-9DFE59DC67E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{649A9797-5A2A-4EBF-9744-9DFE59DC67E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +49,7 @@ Global
 		{F88944DD-E120-4B48-A7B5-B3412944C875} = {3DEA281D-E968-44EC-B55B-CF61D5E63B4C}
 		{42055847-57A7-4652-B1DF-E2C1BBD5AAFD} = {3DEA281D-E968-44EC-B55B-CF61D5E63B4C}
 		{46CBD47F-F020-4799-906D-9208D4B6B723} = {58954715-D7BA-4460-BAF4-4F37D346799B}
+		{649A9797-5A2A-4EBF-9744-9DFE59DC67E1} = {58954715-D7BA-4460-BAF4-4F37D346799B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4DC419E-8F10-42F9-AA54-835A0276F29A}
