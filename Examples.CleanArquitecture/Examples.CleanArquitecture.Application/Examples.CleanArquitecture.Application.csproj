@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Contracts\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Features\Person\Commands\CreatePerson\" />
+    <Folder Include="Features\Person\Commands\DeletePerson\" />
+    <Folder Include="Features\Person\Commands\UpdatePerson\" />
+    <Folder Include="Features\Person\Queries\GetPerson\" />
+    <Folder Include="Features\Person\Queries\GetPersons\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="15.1.0" />
+    <PackageReference Include="MediatR" Version="13.1.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Examples.CleanArquitecture.Domain\Examples.CleanArquitecture.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
