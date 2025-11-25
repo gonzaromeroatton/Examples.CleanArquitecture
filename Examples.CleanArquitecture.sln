@@ -15,9 +15,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples.CleanArquitecture.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples.CleanArquitecture.Domain", "Examples.CleanArquitecture\Examples.CleanArquitecture.Domain\Examples.CleanArquitecture.Domain.csproj", "{42055847-57A7-4652-B1DF-E2C1BBD5AAFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples.CleanArquitecture.Infraestructure", "Examples.CleanArquitecture.Infraestructure\Examples.CleanArquitecture.Infraestructure.csproj", "{46CBD47F-F020-4799-906D-9208D4B6B723}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples.CleanArquitecture.Infraestructure", "Examples.CleanArquitecture\Examples.CleanArquitecture.Infraestructure\Examples.CleanArquitecture.Infraestructure.csproj", "{46CBD47F-F020-4799-906D-9208D4B6B723}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples.CleanArquitecture.Persistence", "Examples.CleanArquitecture.Persistence\Examples.CleanArquitecture.Persistence.csproj", "{649A9797-5A2A-4EBF-9744-9DFE59DC67E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples.CleanArquitecture.Persistence", "Examples.CleanArquitecture\Examples.CleanArquitecture.Persistence\Examples.CleanArquitecture.Persistence.csproj", "{649A9797-5A2A-4EBF-9744-9DFE59DC67E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
