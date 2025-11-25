@@ -10,7 +10,6 @@
     <Folder Include="Features\Person\Commands\CreatePerson\" />
     <Folder Include="Features\Person\Commands\DeletePerson\" />
     <Folder Include="Features\Person\Commands\UpdatePerson\" />
-    <Folder Include="Features\Person\Queries\GetPerson\" />
     <Folder Include="Features\Person\Queries\GetPersons\" />
   </ItemGroup>
 
@@ -18,7 +17,7 @@
     <PackageReference Include="AutoMapper" Version="15.1.0" />
     <PackageReference Include="FluentValidation" Version="12.1.0" />
     <PackageReference Include="MediatR" Version="13.1.0" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.11" />
   </ItemGroup>
 
   <ItemGroup>
