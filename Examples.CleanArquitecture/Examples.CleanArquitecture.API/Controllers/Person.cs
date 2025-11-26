@@ -39,7 +39,15 @@ public class PersonController : ControllerBase
     [HttpGet("{id}")]
     public async Task<ActionResult<PersonDto>> Get(int id)
     {
-        var leaveType = await _mediator.Send(new GetPersonQuery(id));
+        var leaveType = await _mediator.Send(new GetPersonByIdQuery(id));
+
+        return Ok(leaveType);
+    }
+
+    [HttpGet("dni/{dni}")]
+    public async Task<ActionResult<PersonDto>> Get(string dni)
+    {
+        var leaveType = await _mediator.Send(new GetPersonByDniQuery(dni));
 
         return Ok(leaveType);
     }
