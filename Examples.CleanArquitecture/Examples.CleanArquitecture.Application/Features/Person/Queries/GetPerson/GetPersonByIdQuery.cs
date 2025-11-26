@@ -3,4 +3,4 @@ using MediatR;
 
 namespace Examples.CleanArquitecture.Application.Features.Person.Queries.GetPerson;
 
-public record GetPersonQuery(int id) : IRequest<PersonDto>;
+public record GetPersonByIdQuery(int id) : IRequest<PersonDto>;

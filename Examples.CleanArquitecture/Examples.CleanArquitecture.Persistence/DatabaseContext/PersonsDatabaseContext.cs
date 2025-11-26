@@ -14,7 +14,7 @@ public sealed class PersonsDatabaseContext : DbContext
     /// 
     /// </summary>
     /// <param name="options"></param>
-    public PersonsDatabaseContext(DbContextOptions<PersonsDatabaseContext> options) { }
+    public PersonsDatabaseContext(DbContextOptions<PersonsDatabaseContext> options) : base(options) { }
 
     /// <summary>
     /// 

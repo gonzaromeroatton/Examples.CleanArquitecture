@@ -1,6 +1,7 @@
 ﻿using Examples.CleanArquitecture.Application.Contracts.Persistence;
 using Examples.CleanArquitecture.Domain;
 using Examples.CleanArquitecture.Persistence.DatabaseContext;
+using Microsoft.EntityFrameworkCore;
 
 namespace Examples.CleanArquitecture.Persistence.Repositories;
 
@@ -18,10 +19,21 @@ public sealed class PersonRepository : GenericRepository<Person>, IPersonReposit
     /// <summary>
     /// 
     /// </summary>
-    /// <param name="name"></param>
+    /// <param name="dni"></param>
     /// <returns></returns>
-    public async Task<bool> IsPersonDNIValid(string name)
+    public async Task<bool> IsPersonDNIValid(string dni)
     {
-        return await Task.FromResult(!this._context.Persons.Any(p => p.Name == name));
+        // TODO later replace with a module 11 algorithm to validate DNI
+        return await Task.FromResult(dni == "134416327");
+    }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="dni"></param>
+    /// <returns></returns>
+    public async Task<Person> GetByDniAsync(string dni)
+    {
+        return await this._context.Set<Person>().AsNoTracking().FirstOrDefaultAsync(q => q.DNI == dni);
     }
 }

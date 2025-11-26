@@ -2,6 +2,7 @@
 using Examples.CleanArquitecture.Persistence.DatabaseContext;
 using Examples.CleanArquitecture.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -22,7 +23,11 @@ public static class PersistenceServiceRegistration
     {
         services.AddDbContext<PersonsDatabaseContext>(options =>
         {
-            options.UseSqlServer(configuration.GetConnectionString("PersonsDatabaseConnectionString"));
+            options.UseSqlServer(configuration.GetConnectionString("PersonsConnectionString"));
+
+
+            // No nos interesan problemas en las migraciones si utilizamos DateTime.Now o Guid.NewGuid()
+            options.ConfigureWarnings(w => w.Ignore(RelationalEventId.PendingModelChangesWarning));
         });
 
         services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
