@@ -8,7 +8,7 @@ namespace Examples.CleanArquitecture.Application.Features.Person.Queries.GetPers
 /// <summary>
 /// 
 /// </summary>
-public class GetPersonByIdQueryHandle : IRequestHandler<GetPersonByIdQuery, PersonDto>
+public class GetPersonByIdQueryHandler : IRequestHandler<GetPersonByIdQuery, PersonDto>
 {
     /// <summary>
     /// 
@@ -25,7 +25,7 @@ public class GetPersonByIdQueryHandle : IRequestHandler<GetPersonByIdQuery, Pers
     /// </summary>
     /// <param name="leaveAllocationRepository"></param>
     /// <param name="mapper"></param>
-    public GetPersonByIdQueryHandle(IPersonRepository leaveAllocationRepository,
+    public GetPersonByIdQueryHandler(IPersonRepository leaveAllocationRepository,
         IMapper mapper)
     {
         this._personRepository = leaveAllocationRepository;

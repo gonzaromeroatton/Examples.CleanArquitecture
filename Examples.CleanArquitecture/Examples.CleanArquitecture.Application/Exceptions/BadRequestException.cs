@@ -18,7 +18,7 @@ public sealed class BadRequestException : Exception
     /// </summary>
     /// <param name="message"></param>
     /// <param name="validationResult"></param>
-    public BadRequestException(string message, ValidationResult validationResult)
+    public BadRequestException(string message, ValidationResult validationResult) : base(message)
     {
         ValidationErrors = validationResult.ToDictionary();
     }
